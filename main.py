@@ -3,6 +3,7 @@ import os
 from prophet import Prophet # Import Prophet at the top
 import matplotlib.pyplot as plt # Import plotting libs at the top
 import seaborn as sns # Import plotting libs at the top
+import joblib
 
 # Define the path to your dataset
 file_path = 'monatszahlen_verkehrsunfaelle.csv'
@@ -165,3 +166,8 @@ plt.show()
 
 print("\nAI Model creation, forecasting, and visualization complete.")
 print("The script has predicted the value and saved the plot.")
+
+model_filename = 'prophet_model.joblib'
+joblib.dump(model, model_filename)
+print(f"Trained Prophet model saved as '{model_filename}'")
+
