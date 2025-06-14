@@ -1,5 +1,8 @@
-Flask==2.3.2 
+Flask==2.3.2
 gunicorn==21.2.0
-pandas==2.0.3
-prophet==1.1.1
 joblib==1.3.0
+pandas==2.0.3
+numpy==1.23.5
+prophet==1.1.1
+holidays==0.24 # Add or update this line!
+# ... any other packages
