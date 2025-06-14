@@ -1,6 +1,7 @@
-Flask==2.3.2 
+Flask==2.3.2
 gunicorn==21.2.0
 joblib==1.3.0
-pandas==2.0.3
-numpy==1.23.5
-prophet==1.1.1
+pandas==2.0.3  
+numpy==1.23.5  
+prophet==1.1.1 # This is the current stable version
+holidays==0.24
