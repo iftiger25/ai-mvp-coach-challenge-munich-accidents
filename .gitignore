@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# IDEs
+.vscode/ # If you want to ignore VS Code settings for this project
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+*.csv # You might want to ignore the original large CSV if it's too big,
+      # but for this challenge, keeping it might be okay.
+      # If you decide to ignore it, ensure you document where to get it.
+
+# Model artifacts (if saved separately and large)
+# For this challenge, we'll keep the model save in requirements.txt
+# and then upload the saved model file itself.
+# However, for larger models, you'd use Git LFS or object storage.
