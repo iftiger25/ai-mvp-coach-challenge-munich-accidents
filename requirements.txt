@@ -1,7 +1,14 @@
 Flask==2.3.2
 gunicorn==21.2.0
 joblib==1.3.0
+<<<<<<< HEAD
 pandas==2.0.3
 numpy==1.23.5
 prophet==1.1.1
 holidays==0.24
+=======
+pandas==2.0.3  
+numpy==1.23.5  
+prophet==1.1.1 # This is the current stable version
+holidays==0.24
+>>>>>>> 89bd426d96bf26b05a47b50e52266c48d5ba5544
