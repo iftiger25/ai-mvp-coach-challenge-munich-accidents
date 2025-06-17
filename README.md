@@ -35,13 +35,17 @@ bash
 python app.py
 (Add a screenshot of the running app here)
 
-📂 Project Structure
-text
-├── data/           # Accident datasets  
-├── analysis/       # Jupyter notebooks for EDA  
-├── app.py          # Main application  
-├── README.md  
+```bash
+├── data/               # Raw datasets
+├── analysis/           # Jupyter notebooks
+├── src/
+│   ├── agents/         # CrewAI agents
+│   ├── tasks/          # Task definitions
+│   └── utils/          # Helper scripts
+├── outputs/            # Generated reports
+├── README.md
 └── requirements.txt
+```
 🤝 Contributing
 Contributions welcome! Open an issue or submit a PR.
 
